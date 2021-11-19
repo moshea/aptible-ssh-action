@@ -38,4 +38,4 @@ fi
 
 aptible ssh --environment "$INPUT_ENVIRONMENT" \
             --app "$INPUT_APP" \
-            "$INPUT_COMMAND"
+            $INPUT_COMMAND
